@@ -2,9 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/popupManager.js"></script>
+    <title>팝업매니저 예제</title>
+    <link rel="stylesheet" href="../css/responsiveJM.css"/>
+    <link rel="stylesheet" href="../css/popupManager.css"/>
 </head>
 <body>
+    <div class="col-12 tc">
+        <a href="javascript:void(0)" onclick="popupManager.add('#examplePopup0')">팝업스타일 예제 0</a>
+        <a href="javascript:void(0)" onclick="popupManager.add('#examplePopup1')">팝업스타일 예제 1</a>
+    </div>
+<div class="col-12 popup_style_0_wrap" id="examplePopup0">
+    <div class="col-12 popup_con">
+        <div class="col-12 popup_inner">
+            <div class="col-12 popup_header_con">
 
+            </div>
+            <div class="col-12 popup_contents_con">
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-12 popup_style_3_wrap" id="examplePopup1">
+        <div class="col-12 popup_con">
+            <div class="col-12 popup_inner">
+                <div class="col-12 popup_title_con">
+                    <div class="col-12 popup_title">
+                        테스트
+                    </div>
+                </div>
+                <div class="col-12 popup_contents_con">
+
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
